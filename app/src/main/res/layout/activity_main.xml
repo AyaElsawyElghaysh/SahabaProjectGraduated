@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff8e6"
+    android:id="@+id/containerFragment"
+    tools:context=".UI.MainActivity">
+
+ <com.example.myapplication.UI.CurvedBottomNavigationView
+     android:layout_width="match_parent"
+     android:layout_height="70dp"
+     android:id="@+id/bottomNav"
+     android:layout_alignParentBottom="true"
+     android:layout_margin="4dp"
+     app:itemIconTint="#000"
+     app:itemTextColor="#000"
+     android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

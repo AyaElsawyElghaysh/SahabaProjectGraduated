@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/honesty"
+        android:title="الأمانه" />
+    <item
+        android:id="@+id/generousty"
+
+        android:title="الكرم" />
+    <item
+        android:id="@+id/truth"
+        android:title="الصدق" />
+</menu>
